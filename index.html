@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shagun Page 💛</title>
+
 <style>
   body {
     margin: 0;
@@ -51,11 +52,16 @@
     cursor: pointer;
   }
 
+  button:hover {
+    background: #ff7a00;
+  }
+
   .hidden-text {
     margin-top: 12px;
-    font-size: 14px;
+    font-size: 15px;
     color: #6b3b1f;
     display: none;
+    font-weight: 500;
   }
 </style>
 </head>
@@ -64,8 +70,8 @@
 <h1>Ayesa kya… shagun diye bina chale jaoge? 🙈</h1>
 
 <div class="qr-box">
-  <!-- Replace this image with your QR image -->
-  <img src="qr.png.jpeg" alt="QR Code">
+  <!-- IMPORTANT: your QR image file name must be qr.png -->
+  <img src="qr.png" alt="QR Code">
 </div>
 
 <div class="amount">₹201 rupaye ka shagun dalte jao 💸</div>
@@ -73,7 +79,7 @@
 <button onclick="showJoke()">Shagun pay kiya na? 😂</button>
 
 <div class="hidden-text" id="jokeText">
-  Just jokinggggg 🤭💛
+  just jokinggggg 🤭💛
 </div>
 
 <script>
